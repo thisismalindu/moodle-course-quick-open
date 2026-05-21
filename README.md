@@ -21,6 +21,14 @@ This repository contains a Tampermonkey script designed to quickly open Moodle c
 The script includes a `CONFIG` object at the top of the file (line 16) where you can:
 - Change the `targetSite` to your Moodle site domain (e.g., `online.uom.lk`).
 - Modify the `shortcut` to your desired keyboard combination (e.g., `Ctrl+Shift+K`).
+```js
+ const CONFIG = {
+        targetSite: "online.uom.lk", // Change this to your Moodle site domain
+        shortcut: { ctrl: true, shift: true, key: "k" } // Change this to your desired shortcut
+    };
+```
+
+![example configuration](image.png)
 
 ## Usage
 1. Navigate to your Moodle site (e.g., `https://online.uom.lk`).
