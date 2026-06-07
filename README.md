@@ -1,5 +1,7 @@
 # Moodle Course Quick Open
 
+<img width="1356" height="640" alt="Moode Course Quick Open Demo" src="https://github.com/user-attachments/assets/b1f71cec-9485-4f51-b13d-48d7ff31914b" />
+
 ## Description
 This repository contains a Tampermonkey script that turns Moodle into a keyboard-first command center. It indexes courses, activities, resources, sections, and recent activity so you can jump across the LMS from any Moodle page.
 
